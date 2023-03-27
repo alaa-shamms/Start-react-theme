@@ -1,0 +1,87 @@
+
+.item_layer
+{
+    background-color: rgba(26,188,156,0.85);
+    opacity: 0;
+    transition: all 0.5s;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+
+
+}
+img
+{
+    border-radius: 10px;
+}
+
+.item_layer:hover
+{
+    opacity: 1;
+    border-radius: 10px;
+
+}
+
+.closeBtn
+{
+    background-color: rgb(26,188,156) !important;
+}
+.modal
+{
+    z-index: 9999;
+}
+.line
+{
+    width: 100px;
+    height: 5px;
+    background-color: rgb(44,62,80);
+    border-radius: 10px;
+}
+.starColor,.model_head
+{
+    color: rgb(44,62,80);
+}
+.model_head
+{
+    text-transform: uppercase;
+    font-size: 45px;
+}
+.closeColor
+{
+    background-color: rgb(26,188,156) !important; 
+}
+.btn-close
+{
+    opacity: 0 !important;
+}
+.homeH
+{
+font-size: 54px;
+font-weight: 700;
+line-height: 56px;
+}
+.portHeigt
+{
+    height: 150vh;
+
+}
+
+@media screen and (min-width:767px) and (max-width:992px) {
+
+    .portHeigt
+    {
+        height: 200vh !important;
+    }
+    
+}
+
+@media screen and (min-width:0px) and (max-width:767px) {
+
+    .portHeigt
+    {
+        height: 440vh !important;
+        width: 95% !important;
+        margin: auto;
+    }
+    
+}

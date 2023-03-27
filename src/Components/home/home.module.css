@@ -1,0 +1,35 @@
+
+
+.homeImg
+{
+    width: 260px;
+}
+
+
+.home
+{
+    background-color: rgb(26,188,156);
+}
+.homeH
+{
+font-size: 64px;
+font-weight: 700;
+line-height: 56px;
+
+}
+
+.line
+{
+    width: 100px;
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+@media screen and (max-width:800px) {
+
+    .homeH
+    {
+        font-size: 40px;
+    }
+    
+}

@@ -1,0 +1,73 @@
+*
+{
+    box-sizing: border-box;
+}
+
+.navBrand
+{
+color: rgb(255, 255, 255) !important;
+font-size: 30px !important;
+font-weight: 700 !important;
+margin-right: 16px !important;
+padding-bottom: 5px !important;
+padding-top: 5px !important;
+text-transform: uppercase;
+}
+
+nav
+{
+background-color: rgb(44,62,80);
+}
+
+.linkStyle
+{
+    font-size: 20px;
+    font-weight: 800 !important;
+    line-height: 24px;
+    color: white !important;
+    text-transform: uppercase;
+    transition: all 0.4s;
+    text-align: left !important
+
+
+}
+
+.linkStyle:hover
+{
+    color: rgb(26,188,156) !important;
+}
+
+
+.active
+{
+    color:white !important;
+    background-color: rgb(26,188,156);
+    padding: 15px !important;
+    border-radius: 10px;
+}
+
+
+.linkStyle.active:hover
+{
+    color: white !important;
+}
+
+.nav_mediaQ
+{
+    background-color: rgb(26,188,156) !important;
+    /* padding: 20px !important; */
+    font-size: 15px !important;
+}
+.bars
+{
+    font-size: 15px !important;
+    padding-bottom: 5px;
+}
+
+@media screen and (max-width:800px) {
+    
+    .linkStyle
+    {
+        text-align: left !important
+    }
+}
